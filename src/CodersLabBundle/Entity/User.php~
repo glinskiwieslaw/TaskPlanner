@@ -74,27 +74,4 @@ class User extends BaseUser
     {
         return $this->task;
     }
-
-    /**
-     * Set description
-     *
-     * @param string $description
-     * @return User
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    /**
-     * Get description
-     *
-     * @return string 
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
 }
